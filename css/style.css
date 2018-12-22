@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.container {
+  max-width: 1080px; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  outline: none;
+  /* Убираем границу вокруг ссылок  */ }
+
+.button {
+  background: #16a085;
+  padding: auto;
+  border-radius: 5px;
+  width: 170px;
+  height: 50px;
+  margin: 50px;
+  color: #fff; }
+
+.home-wrap {
+  background: url("../img/1bg-home.jpg") center no-repeat;
+  background-size: 100%;
+  height: 100vh; }
+  .home-wrap .home-menu-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px; }
+  .home-wrap .home-menu-item {
+    padding: 40px; }
+  .home-wrap .home-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff; }
+    .home-wrap .home-title .home-title-text {
+      font-size: 26px;
+      padding-bottom: 25px;
+      text-transform: uppercase; }
+  .home-wrap a {
+    color: #fff; }
+  .home-wrap .home-button {
+    padding: auto;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+    margin: 50px;
+    color: #fff; }
+  .home-wrap .home-social-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 12%;
+    /*прижать к низу секции?))*/
+    font-size: 20px; }
+  .home-wrap .fa {
+    padding: 10px; }
+
+.design-wrap {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .design-wrap .container-design {
+    display: flex;
+    justify-content: space-around; }
+    .design-wrap .container-design .disign-block {
+      width: 400px;
+      align-items: center;
+      justify-content: center; }
+    .design-wrap .container-design .design-title {
+      color: #16a085;
+      font-size: 20px;
+      text-transform: uppercase; }
+
+.container-photoapp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+  .container-photoapp .second-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 45%; }
+  .container-photoapp .second-image {
+    display: block;
+    width: 100%; }
+  .container-photoapp .design-title {
+    color: #16a085;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px; }

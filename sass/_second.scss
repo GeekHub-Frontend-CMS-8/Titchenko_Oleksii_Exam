@@ -1,0 +1,25 @@
+.container-photoapp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  .second-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 45%;
+
+  }
+.second-image {
+  display: block;
+  width: 100%;
+}
+  .design-title {
+    color: #16a085;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px;
+  }
+}

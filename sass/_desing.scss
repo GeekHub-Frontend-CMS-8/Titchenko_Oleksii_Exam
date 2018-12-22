@@ -1,0 +1,20 @@
+.design-wrap {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .container-design {
+  display: flex;
+    justify-content: space-around;
+    .disign-block {
+      width: 400px;
+      align-items: center;
+      justify-content: center;
+    }
+    .design-title {
+      color: #16a085;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+}
